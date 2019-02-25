@@ -293,13 +293,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				HEADER_SEARCH_PATHS = /Users/epirat/Projects/Misc/plprefix/include;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/3rdParty/include";
 				INFOPLIST_FILE = MoltenPlacebo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				LIBRARY_SEARCH_PATHS = /Users/epirat/Projects/Misc/plprefix/lib;
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/3rdParty/lib";
 				PRODUCT_BUNDLE_IDENTIFIER = de.ePirat.MoltenPlacebo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -311,13 +311,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				HEADER_SEARCH_PATHS = /Users/epirat/Projects/Misc/plprefix/include;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/3rdParty/include";
 				INFOPLIST_FILE = MoltenPlacebo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				LIBRARY_SEARCH_PATHS = /Users/epirat/Projects/Misc/plprefix/lib;
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/3rdParty/lib";
 				PRODUCT_BUNDLE_IDENTIFIER = de.ePirat.MoltenPlacebo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
