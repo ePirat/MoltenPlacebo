@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6B32B44C2224729F00DB892A /* libshaderc_shared.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6B32B44A2224727B00DB892A /* libshaderc_shared.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		6B32B44D222472AF00DB892A /* libplacebo.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6B66FEBB2222B4A50084CF18 /* libplacebo.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		6B66FEBC2222B4A50084CF18 /* libplacebo.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B66FEBB2222B4A50084CF18 /* libplacebo.dylib */; };
 		6B82DD7A2190DE47008A0549 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B82DD792190DE47008A0549 /* main.m */; };
 		6B82DD852190E7A6008A0549 /* libMoltenVK.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B82DD832190E7A6008A0549 /* libMoltenVK.dylib */; };
@@ -23,17 +25,20 @@
 			dstSubfolderSpec = 10;
 			files = (
 				6B82DD8B2190F2CD008A0549 /* libMoltenVK.dylib in CopyFiles */,
+				6B32B44C2224729F00DB892A /* libshaderc_shared.dylib in CopyFiles */,
+				6B32B44D222472AF00DB892A /* libplacebo.dylib in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		6B66FEBB2222B4A50084CF18 /* libplacebo.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libplacebo.dylib; path = ../plprefix/lib/libplacebo.dylib; sourceTree = "<group>"; };
+		6B32B44A2224727B00DB892A /* libshaderc_shared.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libshaderc_shared.dylib; path = 3rdParty/lib/libshaderc_shared.dylib; sourceTree = "<group>"; };
+		6B66FEBB2222B4A50084CF18 /* libplacebo.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libplacebo.dylib; path = 3rdParty/lib/libplacebo.dylib; sourceTree = "<group>"; };
 		6B82DD6D2190DE44008A0549 /* MoltenPlacebo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoltenPlacebo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B82DD782190DE47008A0549 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6B82DD792190DE47008A0549 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6B82DD832190E7A6008A0549 /* libMoltenVK.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libMoltenVK.dylib; path = ../plprefix/lib/libMoltenVK.dylib; sourceTree = "<group>"; };
+		6B82DD832190E7A6008A0549 /* libMoltenVK.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libMoltenVK.dylib; path = 3rdParty/lib/libMoltenVK.dylib; sourceTree = SOURCE_ROOT; };
 		6B82DD862190ED3C008A0549 /* MetalKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MetalKit.framework; path = System/Library/Frameworks/MetalKit.framework; sourceTree = SDKROOT; };
 		6B82DD8D2190FB8B008A0549 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
@@ -86,6 +91,7 @@
 				6B82DD862190ED3C008A0549 /* MetalKit.framework */,
 				6B82DD832190E7A6008A0549 /* libMoltenVK.dylib */,
 				6B66FEBB2222B4A50084CF18 /* libplacebo.dylib */,
+				6B32B44A2224727B00DB892A /* libshaderc_shared.dylib */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
